@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8" />
+    <script src="app.js" charset="utf-8"></script>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <title>Basic Tetris</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="neons col-12">
+        <h1 class="center"><em>Tetris</em></h1>
+      </div>
+    </div>
+    <div class="container">
+      <div>
+        <h3 id="score-banner">Score: <span id="score">0</span></h3>
+        <p id="instruction">
+          Keys: 'W' for rotating piece. 'A' to move right. 'D' to move left. 'S'
+          to move down 'M' to speed boost block downwards.
+        </p>
+
+        <button class="center" id="start-button">Start/Pause</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="grid"></div>
+      <div class="mini-grid"></div>
+      <div></div>
+    </div>
+  </body>
+</html>
